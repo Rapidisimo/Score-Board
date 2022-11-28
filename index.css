@@ -46,3 +46,8 @@ button:active {
     color: white;
     border: 1px solid white;
 }
+
+.extras {
+    margin: 0 auto;
+    text-align: center;
+}
