@@ -1,5 +1,7 @@
 # Scrimba Solo Project - Score Board
 
+## Live Version >> ➡️ [View Project](https://rapidisimo.github.io/Score-Board/)
+
 ## Requirements
 1. ✅ Build it from "scratch"
 2. ✅ Follow the figma design
