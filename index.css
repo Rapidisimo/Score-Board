@@ -19,22 +19,22 @@ p {
    font-weight: 600;
    text-align: center;
    background-color: black;
-   padding: 1rem 1.4rem;
+   padding: .8rem .8rem;
    margin: 0;
 }
 
 .board {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     background-color: #1b244a;
-    max-width: 50vw;
+    max-width: 90vw;
     margin: 2rem auto;
     border: 2px solid #9AABD8;
     border-radius: .625rem;
     padding: 2rem;
     gap: 4rem;
-    min-width: 462px;
-    max-width: 580px;
+    min-width: 386px;
 }
 
 button {
@@ -60,9 +60,39 @@ button:active {
 
 .home,
 .guest {
-    padding: .6rem;
+    padding: .2rem;
 }
 
 .leader {
     border-top: 2px dashed rgb(40, 208, 40);
+}
+
+@media (min-width: 768px) {
+    .board {
+        display: flex;
+        justify-content: space-around;
+        background-color: #1b244a;
+        max-width: 50vw;
+        margin: 2rem auto;
+        border: 2px solid #9AABD8;
+        border-radius: .625rem;
+        padding: 2rem;
+        gap: 4rem;
+        min-width: 462px;
+        max-width: 580px;
+    }
+    p {
+        color: #f94f6d;
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+        background-color: black;
+        padding: 1rem 1.4rem;
+        margin: 0;
+     }
+    .home,
+    .guest {
+        padding: .6rem;
+}
+     
 }
