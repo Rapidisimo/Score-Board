@@ -24,6 +24,7 @@ p {
 }
 
 .board {
+    font-family: 'Cursed Timer ULiL';
     display: flex;
     justify-content: space-around;
     text-align: center;
